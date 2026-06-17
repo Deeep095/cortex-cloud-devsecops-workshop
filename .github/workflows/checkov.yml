@@ -30,3 +30,4 @@ jobs:
       if: success() || failure()
       with:
         sarif_file: results.sarif
+        
